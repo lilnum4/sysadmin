@@ -1,0 +1,3 @@
+dn: ou=siber,dc=rks,dc=com
+objectClass: organizationalUnit
+ou: siber
