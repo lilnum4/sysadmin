@@ -1,0 +1,24 @@
+dn: uid=angling,ou=siber,dc=rks,dc=com
+changetype: modify
+replace: userPassword
+userPassword: {CLEARTEXT}angling
+
+dn: uid=brama,ou=siber,dc=rks,dc=com
+changetype: modify
+replace: userPassword
+userPassword: {CLEARTEXT}brama
+
+dn: uid=cemara,ou=siber,dc=rks,dc=com
+changetype: modify
+replace: userPassword
+userPassword: {CLEARTEXT}cemara
+
+dn: uid=damar,ou=siber,dc=rks,dc=com
+changetype: modify
+replace: userPassword
+userPassword: {CLEARTEXT}damar
+
+dn: uid=minak,ou=siber,dc=rks,dc=com
+changetype: modify
+replace: userPassword
+userPassword: {CLEARTEXT}minak
