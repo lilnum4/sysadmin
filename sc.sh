@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Daftar user email
-USERS=("angling" "cemara" "brama" " damar" "minak")
+USERS=("angling" "cemara" "brama" "damar" "minak")
 
 for user in "${USERS[@]}"; do
     # Cek apakah user sudah ada, kalau tidak buat
@@ -10,8 +10,7 @@ for user in "${USERS[@]}"; do
     else
         echo "Membuat user $user..."
         sudo useradd -m -s /bin/bash "$user"
-        # Set password (bisa diubah nanti)
-        echo "password" | sudo passwd --stdin "$user" 2>/dev/null || sudo passwd "$user"
+        sudo passwd "$user"
     fi
 
     # Pastikan folder home ada
@@ -29,6 +28,7 @@ for user in "${USERS[@]}"; do
     if [ ! -d "$HOME_DIR/Maildir" ]; then
         echo "Membuat Maildir untuk $user..."
         sudo -u "$user" /usr/bin/maildirmake.dovecot "$HOME_DIR/Maildir"
+        sudo chmod -R 700 "$HOME_DIR/Maildir"
     fi
 done
 
