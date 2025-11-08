@@ -1,0 +1,63 @@
+dn: ou=siber,dc=rks,dc=com
+objectClass: organizationalUnit
+ou: siber
+
+dn: uid=angling,ou=siber,dc=rks,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+cn: angling
+sn: darma
+uid: angling
+mail: angling@rks.com
+uidNumber: 2021
+gidNumber: 2000
+homeDirectory: /home/angling
+userPassword: angling
+
+dn: uid=brama,ou=siber,dc=rks,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+cn: brama
+sn: kumbara
+uid: brama
+mail: brama@rks.com
+uidNumber: 2022
+gidNumber: 2000
+homeDirectory: /home/brama
+userPassword: brama
+
+dn: uid=cemara,ou=siber,dc=rks,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+cn: cemara
+sn: sewu
+uid: cemara
+mail: cemara@rks.com
+uidNumber: 2023
+gidNumber: 2000
+homeDirectory: /home/cemara
+userPassword: cemara
+
+dn: uid=damar,ou=siber,dc=rks,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+cn: damar
+sn: wulan
+uid: damar
+mail: damar@rks.com
+uidNumber: 2024
+gidNumber: 2000
+homeDirectory: /home/damar
+userPassword: damar
+
+dn: uid=minak,ou=siber,dc=rks,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+cn: minak
+sn: djinggo
+uid: minak
+mail: minak@rks.com
+uidNumber: 2025
+gidNumber: 2000
+homeDirectory: /home/minak
+userPassword: minak
