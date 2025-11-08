@@ -1,7 +1,3 @@
-dn: ou=siber,dc=rks,dc=com
-objectClass: organizationalUnit
-ou: siber
-
 dn: uid=angling,ou=siber,dc=rks,dc=com
 objectClass: inetOrgPerson
 objectClass: posixAccount
@@ -12,7 +8,7 @@ mail: angling@rks.com
 uidNumber: 2021
 gidNumber: 2000
 homeDirectory: /home/angling
-userPassword: angling
+userPassword: {CLEARTEXT}angling
 
 dn: uid=brama,ou=siber,dc=rks,dc=com
 objectClass: inetOrgPerson
@@ -24,7 +20,7 @@ mail: brama@rks.com
 uidNumber: 2022
 gidNumber: 2000
 homeDirectory: /home/brama
-userPassword: brama
+userPassword: {CLEARTEXT}brama
 
 dn: uid=cemara,ou=siber,dc=rks,dc=com
 objectClass: inetOrgPerson
@@ -36,7 +32,7 @@ mail: cemara@rks.com
 uidNumber: 2023
 gidNumber: 2000
 homeDirectory: /home/cemara
-userPassword: cemara
+userPassword: {CLEARTEXT}cemara
 
 dn: uid=damar,ou=siber,dc=rks,dc=com
 objectClass: inetOrgPerson
@@ -48,7 +44,7 @@ mail: damar@rks.com
 uidNumber: 2024
 gidNumber: 2000
 homeDirectory: /home/damar
-userPassword: damar
+userPassword: {CLEARTEXT}damar
 
 dn: uid=minak,ou=siber,dc=rks,dc=com
 objectClass: inetOrgPerson
@@ -60,4 +56,4 @@ mail: minak@rks.com
 uidNumber: 2025
 gidNumber: 2000
 homeDirectory: /home/minak
-userPassword: minak
+userPassword: {CLEARTEXT}minak
